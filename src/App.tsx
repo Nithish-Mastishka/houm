@@ -45,7 +45,7 @@ export default function App() {
   const canvas = useFitToViewport();
   const [chatOpen, setChatOpen] = useState(false);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <div ref={canvas} className="site-canvas">
         <Routes>
