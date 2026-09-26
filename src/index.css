@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-houm-red: #fd022c;
+  --color-houm-maroon: #3c0008;
+  --color-houm-ink: #111111;
+  --color-houm-body: #5f6368;
+  --color-houm-bg: #f9f9ff;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background: var(--color-houm-bg);
+  color: var(--color-houm-ink);
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+/* The design is a fixed 1440px canvas; it is scaled to the viewport width (see useFitToViewport). */
+.site-canvas {
+  width: 1440px;
+  zoom: var(--site-zoom, 1);
+  position: relative;
+}
+
+.sr-only-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

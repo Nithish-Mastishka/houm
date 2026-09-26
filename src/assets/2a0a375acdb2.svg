@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<path id="Vector" d="M35 26C35 26.3788 34.786 26.7251 34.4473 26.8945L18.4473 34.8945C18.1657 35.0353 17.8343 35.0353 17.5527 34.8945L1.55273 26.8945C1.21395 26.7251 1 26.3788 1 26V10C1 9.62123 1.21395 9.27486 1.55273 9.10547L17.5527 1.10547L17.6602 1.05957C17.9161 0.967048 18.2008 0.982242 18.4473 1.10547L34.4473 9.10547C34.786 9.27486 35 9.62123 35 10V26Z" stroke="#FD022C" stroke-width="2" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2 10L18 18M18 18V34M18 18L34 10M26 6L10 14" stroke="#FD022C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

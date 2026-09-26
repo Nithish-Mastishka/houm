@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Component 100">
+<path id="secondary" d="M16 14.6667V4M24 5.33333H16V10.6667H24L22.6667 8L24 5.33333Z" stroke="#FD022C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="primary" d="M24.9333 25.84C25.0883 26.0361 25.185 26.2718 25.2125 26.5203C25.2399 26.7687 25.197 27.0199 25.0885 27.2451C24.9801 27.4703 24.8106 27.6605 24.5992 27.794C24.3879 27.9275 24.1433 27.9989 23.8933 28H8.10667C7.85671 27.9989 7.61211 27.9275 7.40078 27.794C7.18945 27.6605 7.01989 27.4703 6.91146 27.2451C6.80302 27.0199 6.76007 26.7687 6.78752 26.5203C6.81496 26.2718 6.91169 26.0361 7.06667 25.84L16 14.6667L24.9333 25.84Z" stroke="#0A1128" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

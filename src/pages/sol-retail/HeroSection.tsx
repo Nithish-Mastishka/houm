@@ -1,0 +1,28 @@
+import { Link } from 'react-router-dom';
+import imga87df6b5f941 from '@/assets/a87df6b5f941.webp';
+
+export default function HeroSection() {
+  return (
+    <>
+      <div className="content-stretch flex flex-col gap-[10px] items-center px-[72px] py-[48px] relative size-full">
+        <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
+          <div className="absolute inset-0 overflow-hidden -scale-x-100"><img alt="" className="absolute h-[259.4%] left-0 max-w-none top-[-60.14%] w-full" src={imga87df6b5f941} /></div>
+          <div className="absolute bg-gradient-to-l from-[rgba(60,0,8,0)] inset-0 to-[#3c0008] via-[45.82%] via-[rgba(60,0,8,0.8)]" />
+        </div>
+        <div className="[word-break:break-word] content-center flex flex-wrap font-['Inter'] font-medium gap-[10px] items-center not-italic pr-[11px] py-[8px] relative shrink-0 text-[16px] text-center w-full whitespace-nowrap">
+          <Link to="/" className="block cursor-pointer leading-[0] opacity-90 relative shrink-0 text-[#f6f4fc] hover:underline"><p className="leading-[24px]">Home</p></Link>
+          <p className="leading-[24px] opacity-80 relative shrink-0 text-[#c4c4d6]">/</p>
+          <p className="leading-[24px] opacity-90 relative shrink-0 text-[#f6f4fc]">Solutions</p>
+          <p className="leading-[24px] opacity-80 relative shrink-0 text-[#c4c4d6]">/</p>
+          <p className="leading-[24px] relative shrink-0 text-white">Retail</p>
+        </div>
+        <div className="content-stretch flex flex-col items-center relative shrink-0 w-full">
+          <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
+            <div className="[word-break:break-word] flex flex-col font-['Roboto'] font-semibold justify-center leading-[0] relative shrink-0 text-[#fff8f8] text-[32px] w-full" style={{ fontVariationSettings: "'wdth' 100" }}><h1 className="leading-[1.2]">Retail</h1></div>
+            <div className="content-stretch flex flex-col items-start opacity-90 relative shrink-0 w-full"><div className="[word-break:break-word] flex flex-col font-['Inter'] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#fff8f8] text-[16px] w-[528px]"><p className="leading-[1.5]">A connected security ecosystem that helps retailers protect people, prevent loss, understand customer movement and improve store operations.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
